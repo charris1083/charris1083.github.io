@@ -1,0 +1,54 @@
+.jumbotron{
+  /* opacity: 0.5; */
+  background: url(https://images.pexels.com/photos/79581/nba-jersey-goat-jordan-79581.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-size: cover;
+  background-color: rgba(255,255,255,0.4);
+  background-blend-mode: lighten;
+  color: black;
+  font-family: 'Unna', serif;
+  font-weight: bold;
+}
+
+  
+  
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+ background: url(https://cdn-images-1.medium.com/max/2000/1*FwFjutKoa0Dq2WnEoh30_Q.jpeg);
+ font-family: "Open Sans",  Impact;
+}
+
+.area {
+  text-align: center;
+  font-size: 6.5em;
+  color: #fff;
+  letter-spacing: -2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #3FBD2B,
+      0px 0px 10px #3FBD2B, 
+      0px 0px 25px #3FBD2B,
+      0px 0px 25px #3FBD2B,
+      0px 0px 25px #3FBD2B,
+      0px 0px 25px #3FBD2B,
+      0px 0px 25px #3FBD2B,
+      0px 0px 25px #3FBD2B,
+      0px 0px 50px #3FBD2B,
+      0px 0px 50px #3FBD2B,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}

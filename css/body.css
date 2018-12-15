@@ -1,6 +1,6 @@
 
 #modalDiv{
-    margin-left: 30%;
+    margin-left: 25%;
     margin-top: 20%;
     font-family: 'Monoton', cursive;
 }
@@ -8,10 +8,13 @@
 #aboutButton{
     position: relative;
     margin: 5%;
-    font-family: 'Monoton', cursive;
 }
 #projectButton{
     position: relative;
     margin: 5%;
-    font-family: 'Monoton', cursive;
+
+}
+#contactButton{
+    position: relative;
+    margin: 5%;
 }
